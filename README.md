@@ -1,1 +1,2 @@
-# faisal
+#faisal
+This Tool Only For Educational Purpose So Use On Your Responsbilty ...
