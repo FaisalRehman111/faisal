@@ -20,4 +20,8 @@ if bit == '64bit':
     from FSL import menu___
     menu___()
 elif bit == '32bit':
-    print("\x1b[1;91mSorry Brother Your Mobile Not Support This Tools")
+    from FSL32 import menu___
+    print("\n\x1b[1;92m Congratulations ! Your Device Support This Tool")
+
+
+
