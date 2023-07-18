@@ -1,4 +1,4 @@
-import os, platform, time
+import os, platform, time, pycurl
 os.system('clear')
 print('checking updates')
 os.system('git pull')
@@ -8,6 +8,10 @@ try:
     import requests
 except:
     os.system('pip install requests')
+try:
+    import pycurl
+except:
+    os.system('pip install pycurl')
 os.system('git pull')
 import requests
 bit = platform.architecture()[0]
